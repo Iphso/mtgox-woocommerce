@@ -297,7 +297,7 @@ function woocommerce_mtgox_init()
 					'type' => 'checkbox',
 					'label' => 'Enable logging',
 					'default' => 'no',
-					'description' => sprintf('Write debugging information to <code>woocommerce/logs/paypal-%s.txt</code>', sanitize_file_name(wp_hash('mtgox'))) ,
+					'description' => sprintf('Write debugging information to <code>woocommerce/logs/mtgox-%s.txt</code>', sanitize_file_name(wp_hash('mtgox'))) ,
 				)
 			);
 		}
